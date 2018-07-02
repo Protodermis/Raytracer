@@ -1,0 +1,5 @@
+A Raytracer written in C as part of a project for CS4611 Computer Graphics
+at Michigan Tehcnological University.
+
+Once compiled the rayratcer can be un with './ray reference' or
+'./ray custom' to select a predefined scene to render.
