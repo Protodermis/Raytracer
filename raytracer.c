@@ -546,7 +546,7 @@ int main(int argc, char** argv) {
 	}
       }
 
-      float shading;
+      float shading = 1.0;
       // Find shadow and reflection values
       if(nearestHit.isRefl==0){
 	shading = diffuseShading(nearestHit);

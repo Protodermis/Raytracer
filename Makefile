@@ -1,11 +1,11 @@
-CFLAGS = -std=c99 -lm
+CFLAGS = -std=c99
 OBJS = raytracer.o vecmat.o msg.o
 PROG = ray
 
 all: $(PROG)
 
 $(PROG): $(OBJS)
-	$(CC) $(CFLAGS) $(OBJS) -o $@
+	$(CC) $(CFLAGS) $(OBJS) -o $@ -lm
 
 raytracer.o: vecmat.h msg.h
 vecmat.o: vecmat.h msg.h
